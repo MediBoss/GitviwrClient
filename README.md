@@ -3,7 +3,7 @@
 
 # Gitvwr
 
-Gitvwr is a lightweight chrome extension that notifies you via email when your github profile has been viewed(LinkedIn style).
+Gitvwr is a lightweight chrome extension that notifies you via email when your github profile has been viewed(LinkedIn style). The server code is <a href="https://github.com/MediBoss/GitviewrServer">here</a>.
 
 ## Engineer(s)
 
