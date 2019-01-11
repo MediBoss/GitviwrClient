@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img src= "scr/gitviwr_github_log.png" width = 150 height = 150></img>
 
-In the project directory, you can run:
+# Gitvwr
 
-### `npm start`
+Gitvwr is a lightweight chrome extension that notifies you via email when your github profile has been viewed(LinkedIn style).
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Engineer(s)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* **Medi Assumani** - *Full Stack Developer*
 
-### `npm test`
+## Project Built With
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Front End : HTML, CSS, Javascript, Reeact
+* Back End : Node.js, Express.js, Socket.io, NodeMailer
+* Database : MongoDB
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is licensed under the Apache 2.0 License - see the <a href="https://github.com/MediBoss/Lofti/blob/master/LICENSE">LICENSE</a> file for details
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Acknowledgments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Major Hat tip to <a href="https://github.com/bnguyen212">Brian Nguyen</a>
+* <a href="https://github.com/matthewlawson">Matt Lawson</a> for his amazing talk on chrome extenion.
+* <a href="https://github.com/RinniSwift">Rinni Swift</a> and <a href="https://github.com/woodward4422">Noah Woodward</a> for being my Beta Testers.
+* Stack overflow
 
-### `npm run eject`
+## ToDO
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ ] Improve PopUp view with Boostrap and React on Front End
+- [ ] Integrate Database Query
+- [ ] Migrate to SOA architecture on Back end
+- [ ] Review project rubric
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
