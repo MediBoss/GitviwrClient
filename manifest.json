@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "gitviwr",
+  "name": "Create React App Sample",
+  "description": "This extension is a mini socket.io github profile viewer client",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_popup": "dist/index.html",
+    "default_title": "Monitoring Github.com"
+},
+
+
+"permissions": [
+    "webRequest",
+    "webNavigation",
+    "https://*.github.com/*",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+],
+
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.github.com/*"],
+      "js": ["/assets/socket.io.js","content.js"]
+    }
+  ],
+
+"background": {
+  "scripts": [
+    "/src/background/background.js"
+  ],
+  "persistent": true
+},
+"permissions": [
+    "activeTab"
+  ]
+
+}
