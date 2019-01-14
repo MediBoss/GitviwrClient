@@ -32,5 +32,9 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 - [x] Integrate Database(MongoDB) Query
 - [ ] Migrate to SOA architecture on Back end
 - [ ] Review project rubric
+- [ ] Add user Auth on Backend
+- [ ] Deploy to chrome store
+- [ ] Add socket broadcasting for multiple clients.
+- [ ] Declutter app.js and add routes.
 
 <i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
