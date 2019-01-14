@@ -29,7 +29,7 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 ## ToDO
 
 - [ ] Improve PopUp view with Boostrap and React on Front End
-- [ ] Integrate Database Query
+- [x] Integrate Database(MongoDB) Query
 - [ ] Migrate to SOA architecture on Back end
 - [ ] Review project rubric
 
