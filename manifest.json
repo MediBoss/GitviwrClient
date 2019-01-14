@@ -1,13 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "gitviwr",
-  "name": "Create React App Sample",
+  "name": "Gitviwr",
   "description": "This extension is a mini socket.io github profile viewer client",
   "version": "0.1.0",
 
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "eyes.png"
+    "default_icon": "logo.png"
 },
 
 
@@ -30,7 +29,8 @@
 
 "background": {
   "scripts": [
-    "/src/background/background.js"
+    "/src/background/background.js",
+    "/assets/socket.io.js"
   ],
   "persistent": true
 },
