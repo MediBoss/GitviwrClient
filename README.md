@@ -1,9 +1,9 @@
 
-<img src= "src/gitviwr_github_log.png" width = 150 height = 150></img>
+<img src= "src/logo.png" width = 150 height = 150></img>
 
 # Gitvwr
 
-Gitvwr is a lightweight chrome extension that notifies you via email when your github profile has been viewed(LinkedIn style). The server code is <a href="https://github.com/MediBoss/GitviewrServer">here</a>.
+Gitvwr is a lightweight chrome extension that notifies you via email when your github profile has been viewed(LinkedIn style). It is still under development and hasn't been deployed to the chrome store. The server code is <a href="https://github.com/MediBoss/GitviewrServer">here</a>.
 
 ## Engineer(s)
 
@@ -29,8 +29,12 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 ## ToDO
 
 - [ ] Improve PopUp view with Boostrap and React on Front End
-- [ ] Integrate Database Query
+- [x] Integrate Database(MongoDB) Query
 - [ ] Migrate to SOA architecture on Back end
 - [ ] Review project rubric
+- [ ] Add user Auth on Backend
+- [ ] Deploy to chrome store
+- [ ] Add socket broadcasting for multiple clients.
+- [ ] Declutter app.js and add routes.
 
 <i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
