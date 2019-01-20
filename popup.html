@@ -47,7 +47,7 @@
       margin-bottom: 30px;
     }
 
-    #views-tag{
+    #view-count{
       font-size: 120px;
       text-align: center;
     }
@@ -59,15 +59,15 @@
 
   <h2 id="title">Gitviwr</h1>
   <h2 id="sub-title">Numbers of times your Github profile was viewed :</h4>
-  <h1 id="views-tag">2</h1>
+  <h1 id="view-count">0</h1>
   <br>
 
   <form action="http://localhost:3000/new-user" id="button-form" method="GET" target="_blank">
     <button type="submit" id="register-button">Register Your Account</button>
   </form>
 
-  <script src="/socket.io/socket.io.js">
+  <script src="/assets/socket.io.js"></script>
+  <script src="/counterUpdate.js"></script>
 
-  </script>
 </body>
 </html>
