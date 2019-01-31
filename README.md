@@ -11,7 +11,7 @@ Gitvwr is a real time chrome extension that notifies users via email when their 
 ## Project Built With
 
 * Front End : HTML, CSS, Javascript, Reeact
-* Back End : Node.js, Express.js, Socket.io, NodeMailer
+* Back End : Node.js, Express.js, Socket.io, NodeMailer, Github OAuth
 * Database : MongoDB
 
 ## License
