@@ -7,5 +7,4 @@
   socket.on('connect', async () => {
     socket.emit('github event', user_github_handle)
   })
-
 }());
