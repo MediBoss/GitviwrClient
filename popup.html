@@ -35,9 +35,9 @@
 
     #register-button{
 
-      background-color: #5f40e8;
+      background-color: #DCDCDC;
       border: none;
-      color: white;
+      color: black;
       padding: 15px 32px;
       text-align: center;
       text-decoration: none;
@@ -45,8 +45,9 @@
       font-size: 16px;
       border-radius: 25px;
       margin-bottom: 30px;
-      background-image:url('http://www.w3.org/html/logo/downloads/HTML5_Logo_32.png');
+      background-image:url('/assets/oktocat.png');
       background-repeat:no-repeat;
+      background-position: left;
     }
 
     #view-count{
@@ -64,7 +65,8 @@
   <h1 id="view-count">0</h1>
   <br>
 
-  <form action="http://localhost:3000/new-user" id="button-form" method="GET" target="_blank">
+  <form action="https://github.com/login/oauth/authorize" id="button-form" method="GET" target="_blank">
+    <input type="hidden" name="client_id" value="25bf714a3300aecdbc26">
     <button type="submit" id="register-button">Login with Github</button>
   </form>
 
