@@ -27,14 +27,14 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 
 ## ToDO
 
-- [ ] Improve PopUp view with Boostrap and React on Front End
+- [x] Improve PopUp view with Boostrap and React on Front End
 - [x] Integrate Database(MongoDB) Query
-- [ ] Migrate to SOA architecture on Back end
+- [x] Migrate to SOA architecture on Back end
 - [ ] Review project rubric
-- [ ] Add user Auth on Backend
+- [x] Add user Auth on Backend
 - [ ] Deploy to chrome store
 - [ ] Add socket broadcasting for multiple clients.
-- [ ] Declutter app.js and add routes.
+- [x] Declutter app.js and add routes.
 - [x] Add Real time views counter on client 
 
 <i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
