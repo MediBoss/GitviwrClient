@@ -16,7 +16,8 @@
     "https://*.github.com/*",
     "tabs",
     "http://*/*",
-    "https://*/*"
+    "https://*/*",
+    "storage"
 ],
 
 
