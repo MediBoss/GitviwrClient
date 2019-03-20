@@ -2,7 +2,6 @@
 <img src= "src/logo.png" width = 150 height = 150></img>
 
 # Gitvwr
-<img src= "src/SC1.png" width = 150 height = 150></img>
 
 ### Overview
 Gitvwr is a lightweight, secure, and real time chrome extension that notifies users via email when their Github profile has been viewed(LinkedIn style). 
@@ -21,6 +20,9 @@ Gitvwr is a lightweight, secure, and real time chrome extension that notifies us
 
 This project is licensed under the Apache 2.0 License - see the <a href="https://github.com/MediBoss/Lofti/blob/master/LICENSE">LICENSE</a> file for details
 
+### Screenshots
+
+<img src= "src/SC1.png" width = 100 height = 200></img>
 ### Acknowledgments
 
 * Major Hat tip to <a href="https://github.com/bnguyen212">Brian Nguyen</a>
