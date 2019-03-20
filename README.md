@@ -38,5 +38,3 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 - [ ] Add socket broadcasting for multiple clients.
 - [x] Declutter app.js and add routes.
 - [x] Add Real time views counter on client 
-
-<i>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</i>
