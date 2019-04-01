@@ -8,11 +8,11 @@ Gitvwr is a lightweight, secure, and real time chrome extension that notifies us
 
 ### Engineer(s)
 
-* **Medi Assumani** - *Full Stack Developer*
+* **Medi Assumani** - *Full Stack Engineer*
 
 ### Project Built With
 
-* Front End : HTML, CSS, Javascript, Reeact
+* Front End : HTML, CSS, Javascript, Chrome API
 * Back End : Node.js, Express.js, Socket.io, NodeMailer, Github OAuth, JWT
 * Database : MongoDB
 
