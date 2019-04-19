@@ -8,11 +8,11 @@ Gitvwr is a lightweight, secure, and real time chrome extension that notifies us
 
 ### Engineer(s)
 
-* **Medi Assumani** - *Full Stack Developer*
+* **Medi Assumani** - *Full Stack Engineer*
 
 ### Project Built With
 
-* Front End : HTML, CSS, Javascript, Reeact
+* Front End : HTML, CSS, Javascript, Chrome API
 * Back End : Node.js, Express.js, Socket.io, NodeMailer, Github OAuth, JWT
 * Database : MongoDB
 
@@ -35,9 +35,11 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 - [x] Improve PopUp view with Boostrap and React on Front End
 - [x] Integrate Database(MongoDB) Query
 - [x] Migrate to SOA architecture on Back end
-- [ ] Review project rubric
 - [x] Add user Auth on Backend
-- [ ] Deploy to chrome store
-- [ ] Add socket broadcasting for multiple clients.
 - [x] Declutter app.js and add routes.
 - [x] Add Real time views counter on client 
+- [ ] Deploy client to chrome store
+- [ ] Deploy Server to Heroku
+- [ ] Add socket broadcasting for multiple clients.
+- [ ] Review project rubric
+- [ ] Write blog post about Gitviwr
