@@ -1,5 +1,4 @@
 
-// 
 (function () {
 
   // Creates a socket connection to gitviwr server

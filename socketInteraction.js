@@ -2,12 +2,24 @@
 // Creates a socket connection to gitviwr server
 var socket = io("http://localhost:3000")
 
+const currentViewCount = window.localStorage.getItem("currentViewCount")
+// Display the number of views if the server has not updated to a new number 
+if (currentViewCount !== null && currentViewCount !== 'undefined') {
+  document.getElementById('view-count').innerHTML = currentViewCount 
+}
+
 /**
  * Receives new viewer count from server and update the view count html label.
  * @param {*} counter -  An number that represents the amount of views a user has.
  */
 socket.on('count update', function(counter){
-  document.getElementById('view-count').innerHTML = counter
+
+  var curr = window.localStorage.getItem("currentViewCount")
+  if (Number(curr) != counter) {
+    // Caches the new number of views if the server has updated
+    window.localStorage.setItem("currentViewCount", counter)
+    document.getElementById('view-count').innerHTML = counter
+  }
 })
 
 /**
