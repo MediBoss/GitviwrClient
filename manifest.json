@@ -17,7 +17,9 @@
     "tabs",
     "http://*/*",
     "https://*/*",
-    "storage"
+    "storage",
+    "activeTab",
+    "cookies"
 ],
 
 
@@ -34,9 +36,5 @@
     "/assets/socket.io.js"
   ],
   "persistent": true
-},
-"permissions": [
-    "activeTab"
-  ]
-
+}
 }

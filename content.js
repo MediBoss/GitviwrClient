@@ -1,40 +1,33 @@
 
-
-// // Return the github handle of the visited gihub pages
-// (function () {
-//   const socket = io('http://localhost:3000');
-//   var user_url = window.location.pathname.split('/');
-//   let user_token
-//   const user_github_handle = user_url[1];
-//   // chrome.storage.sync.get(['token'], function(result) {
-//   //   user_token = result
-//   // });
-
-//   socket.on('connect', async () => {
-//     socket.emit('github event', user_github_handle)
-//   })
-// }());
-
-// // stores the encrypted token of a user from Github API through Gitviwr server
-// // (function() {
-
-// //   var socket = io("http://localhost:3000")
-// //   socket.on('user token', function(userToken){
-// //     chrome.storage.sync.set({'token': userToken}, function() {
-// //       console.log(`Token ${userToken} has been succesfully stored`);
-// //     })    
-// //   })
-// // })
-
-//Returns the github handle of the visited gihub pages
-
+// 
 (function () {
 
+  // Creates a socket connection to gitviwr server
   const socket = io('http://localhost:3000');
+ 
+  /**
+   * Dynamically grabs the handle from the url
+   * Example - https://github.com/MediBoss/GitviewrServer/blob/master/app.js will grab `MediBoss`
+   */
   var user_url = window.location.pathname.split('/');
-  const user_github_handle = user_url[1];
-  const token = "1234"
+  const viewed_github_handle = user_url[1];
+
+  // Retrieves the user who's viewing the specific profile from local storage...if its a registered user.
+  const current_user = window.localStorage.getItem('currentUser')
+  const gitviewr = {viewer: current_user, viewed: viewed_github_handle}
+
+  // Sends the data to gitviwr server to process.
   socket.on('connect', async () => {
-    socket.emit('github event', [token, user_github_handle])
+    socket.emit('github event', gitviewr)
   })
 }());
+
+// Listens to the message's data and caches it in local storage.
+chrome.runtime.onMessage.addListener(
+  function(message, sender, callback) {
+    if (message.currentUser == null) {
+      return 
+    }
+    window.localStorage.setItem("currentUser", message.currentUser)
+  }
+)
