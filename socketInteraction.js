@@ -1,6 +1,6 @@
 
 // Creates a socket connection to gitviwr server
-var socket = io("http://localhost:3000")
+var socket = io("https://gitviewerserver.herokuapp.com/")
 
 const currentViewCount = window.localStorage.getItem("currentViewCount")
 // Display the number of views if the server has not updated to a new number 

@@ -2,7 +2,7 @@
 (function () {
 
   // Creates a socket connection to gitviwr server
-  const socket = io('http://localhost:3000');
+  const socket = io('https://gitviewerserver.herokuapp.com/');
  
   /**
    * Dynamically grabs the handle from the url
