@@ -1,5 +1,5 @@
 
-<img src= "src/logo.png" width = 150 height = 150></img>
+<img src= "src/icon.png" width = 150 height = 150></img>
 
 # Gitvwr
 
