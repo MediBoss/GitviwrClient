@@ -22,7 +22,7 @@ This project is licensed under the Apache 2.0 License - see the <a href="https:/
 
 ### Screenshots
 
-<img src= "src/SC1.png" width = 170 height = 300></img>
+<img src= "src/SC1.png" width = 190 height = 300></img>
 ### Acknowledgments
 
 * Major Hat tip to <a href="https://github.com/bnguyen212">Brian Nguyen</a>
