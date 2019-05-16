@@ -1,12 +1,16 @@
 {
   "manifest_version": 2,
   "name": "Gitviwr",
-  "description": "This extension is a mini socket.io github profile viewer client",
-  "version": "0.1.0",
+  "description": "Gitvwr is a lightweight, secure, and real time chrome extension that notifies users via email when their Github profile has been viewed(LinkedIn style).",
+  "version": "0.0.1",
+  "author": "Medi Assumani",
+
+  "icons": {
+    "128": "src/icon.png"
+  },
 
   "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": "/src/logo.png"
+    "default_popup": "popup.html"
 },
 
 

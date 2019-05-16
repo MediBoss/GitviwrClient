@@ -1,11 +1,19 @@
 
 // Creates a socket connection to gitviwr server
-var socket = io("https://gitviewerserver.herokuapp.com/")
+
+// const socket = io('http://localhost:3000/'); // local server
+const socket = io("https://gitviewerserver.herokuapp.com/")  // production server
 
 const currentViewCount = window.localStorage.getItem("currentViewCount")
+
 // Display the number of views if the server has not updated to a new number 
 if (currentViewCount !== null && currentViewCount !== 'undefined') {
-  document.getElementById('view-count').innerHTML = currentViewCount 
+
+  // Updating the DOM when the user has logged in with Github SDK
+  document.getElementById('view-count').innerHTML = currentViewCount
+  document.getElementById('register-button').innerText = "Logged In"
+  document.getElementById('register-button').style.backgroundImage = "url('/assets/checked.png')"
+  document.forms[1].action = "https://gitviewerserver.herokuapp.com/logout"
 }
 
 /**

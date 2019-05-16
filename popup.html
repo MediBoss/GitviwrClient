@@ -10,13 +10,13 @@
     }
 
     #title{
-      font-size: 40px;
-      font-family: sans-serif;
+      font-size: 30px;
+      font-family: 'Trebuchet MS', Arial, sans-serif;
       text-align: center;
     }
 
     #sub-title{
-      font-size: 18px;
+      font-size: 15px;
       font-family: sans-serif;
       text-align: center;
     }
@@ -27,7 +27,14 @@
       text-align: center;
     }
 
-    #button-form{
+    #login-button-form{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #options-button-form{
       width: 100%;
       display: flex;
       align-items: center;
@@ -44,15 +51,31 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      border-radius: 25px;
+      border-radius: 5px;
       margin-bottom: 30px;
       background-image:url('/assets/oktocat.png');
       background-repeat:no-repeat;
       background-position: left;
     }
 
+    #options-button{
+      background-color: #efeded;
+      border: none;
+      color: black;
+      padding: 15px 65px;
+      text-align: right;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      background-image:url('/assets/options.png');
+      background-repeat:no-repeat;
+      background-position: left;
+    }
+
     #view-count{
-      font-size: 120px;
+      font-size: 90px;
       text-align: center;
     }
 
@@ -66,9 +89,14 @@
   <h1 id="view-count">0</h1>
   <br>
 
-  <form action="https://github.com/login/oauth/authorize" id="button-form" method="GET" target="_blank">
+  <form action="https://gitviewerserver.herokuapp.com/logout" id="options-button-form" method="GET" target="_blank">
+    <button type="submit" id="options-button">Options</button>
+  </form>
+
+
+  <form action="https://github.com/login/oauth/authorize" id="login-button-form" method="GET" target="_blank">
     <input type="hidden" name="client_id" value="25bf714a3300aecdbc26">
-    <button type="submit" id="register-button">Login with Github</button>
+    <button name="registerButton" type="submit" id="register-button">Login with Github</button>
   </form>
 
   <script src="/assets/socket.io.js"></script>
