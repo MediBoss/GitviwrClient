@@ -8,7 +8,7 @@ Gitvwr is a lightweight, secure, and real time chrome extension that notifies us
 
 ### Engineer(s)
 
-* **Medi Assumani** - *Full Stack Engineer*
+* **Medi Assumani** - *Lead Full Stack Engineer*
 
 ### Project Built With
 
